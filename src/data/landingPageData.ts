@@ -51,6 +51,7 @@ export const ourOfferings: PopUpData[] = [
     title: 'IndoSoul Live',
     content: [''],
     links: '/indo-soul-live',
+    cardText: 'Live Contemporary music for every stage',
     buttonColor: 'liveRed',
   },
   {
@@ -60,6 +61,7 @@ export const ourOfferings: PopUpData[] = [
     title: 'Soul Sabha',
     content: [''],
     links: '/soul-sabha',
+    cardText: 'Unique listening experience of carnatic music',
     buttonColor: 'soulGreen',
   },
   {
@@ -69,6 +71,7 @@ export const ourOfferings: PopUpData[] = [
     title: 'IndoSoul Roots',
     content: [''],
     links: '/indo-soul-roots',
+    cardText: 'Original & independent compositions',
     buttonColor: 'rootsBrown',
   },
   {
@@ -78,6 +81,7 @@ export const ourOfferings: PopUpData[] = [
     title: 'Academy Of Music',
     content: [''],
     links: '/indo-soul-music',
+    cardText: 'Online & offline violin institute',
     buttonColor: 'musicBlue',
   },
 
@@ -88,6 +92,7 @@ export const ourOfferings: PopUpData[] = [
     title: 'Flow',
     content: [''],
     links: '/flow',
+    cardText: 'Music production house tailored to project requirements',
     buttonColor: 'flowGreen',
   },
 ];

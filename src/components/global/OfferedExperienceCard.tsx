@@ -63,8 +63,8 @@ const OfferedExperienceCard: React.FC<OfferedExperienceCardProps> = ({ data, tex
                 <div className='-translate-y'>
                   {textLogo ? <h1 className={`font-bebasNeue text-[35px] leading-none text-center text-white ${data?.title?.length > 30 ? 'w-[200px]' : ' w-[140px]'}`}>{data?.title}</h1> : imageLogo ? <img src={data?.logo} className='w-full max-w-[200px]' alt="" /> : null}
                 </div>
-                {pathname === '/indo-soul-live' ? (
-                  <div className={`absolute top-1/2 text-white flex font-manrope font-medium flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-200 ease-in-out`}>
+                {pathname === '/indo-soul-live' || pathname === '/' ? (
+                  <div className={`absolute top-1/2 text-white flex font-manrope font-medium flex-col justify-center items-center opacity-0 group-hover:opacity-100 transition-all duration-200 ease-in-out px-5`}>
                     <p className='text-LiveRed text-sm h-10 text-center mb-14'>{data?.cardText}</p>
                   </div>
                 ) : null}

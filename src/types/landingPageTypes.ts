@@ -5,6 +5,7 @@ export interface PopUpData {
   title: string;
   content?: string[] | number[] | any;
   links?: string;
+  cardText?: string;
   buttonColor?: string;
 }
 

@@ -3,6 +3,7 @@ import reverbEffect from '../../assets/indosoulroots/icons/reverb.svg'
 import separator from '../../assets/indosoulroots/icons/separator-roots.svg'
 import SocialMediaIconsColor from '../global/SocialMediaIconsColor'
 import { bookingCardsData } from '../../data/indoSoulRootsData'
+import SeasonHeader from '../global/SeasonHeader'
 
 const Albums: React.FC = () => {
 
@@ -10,10 +11,11 @@ const Albums: React.FC = () => {
 
   return (
     <div className='mb-28 overflow-hidden'>
-      <div className='w-full flex justify-center items-center py-6 mb-5'>
+      <div className='w-full flex justify-center items-center py-6 mb-16'>
         <img src={separator} className='w-full max-w-[400px]' alt="" />
       </div>
-      <div className='relative max-w-screen flex justify-center items-center pt-20 pb-10 px-5 md:px-20'>
+      <SeasonHeader text='our albums' />
+      <div className='relative max-w-screen flex justify-center items-center pt-10 pb-10 px-5 md:px-20'>
 
         <div className="flex justify-center items-center gap-1 md:gap-3 h-fit mx-auto relative">
           

@@ -47,7 +47,7 @@ const SmallCarousal: React.FC<SmallCarousalProps> = ({ carousalData, event, info
 
   return (
     <div className='w-full'>
-      <div className='hidden md:block mb-10'>
+      <div className='hidden md:block mb-8'>
         <Slider {...desktopSliderSettings} className=''>
           {
             carousalData?.map((data: any, i: number) => (

@@ -62,6 +62,7 @@ const CardContainerCarousal: React.FC<CardContainerCarousalProps> = ({ data }) =
               imageLogo={setLogoType('image')}
               textLogo={setLogoType('text')}
               infoPopup={pathname === '/indo-soul-live' || pathname === '/soul-sabha'}
+              onButtonClick={() => handleClick(data?.links)}
             />
           ))
         }

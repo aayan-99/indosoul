@@ -32,9 +32,9 @@ export const descriptionData: DescriptionDataType[] = [
 
 export const catalogData: CatalogDataType[] = [
   {
-    id: 0,
-    image: catalogImage1,
-    title: 'Films',
+    id: 2,
+    image: catalogImage3,
+    title: 'Ad Jingles',
     content: '',
     links: '',
   },
@@ -46,9 +46,9 @@ export const catalogData: CatalogDataType[] = [
     links: '',
   },
   {
-    id: 2,
-    image: catalogImage3,
-    title: 'Ad Jingles',
+    id: 0,
+    image: catalogImage1,
+    title: 'Films',
     content: '',
     links: '',
   },
