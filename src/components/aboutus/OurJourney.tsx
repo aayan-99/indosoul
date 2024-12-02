@@ -5,20 +5,6 @@ import { journeyData } from '../../data/aboutUsData';
 import { motion } from 'framer-motion';
 
 const OurJourney: React.FC = () => {
-
-  // const [showInfoPopUpId, setShowInfoPopUpId] = useState<number | null>(null);
-
-  // const desktopSliderSettings = {
-  //   dots: false,
-  //   infinite: true,
-  //   speed: 300,
-  //   slidesToShow: 5,
-  //   slidesToScroll: 1,
-  //   arrows: false,
-  //   autoplay: true,
-  //   pauseonhover: false,
-  // };
-
   const [currentScrollDataIndex, setCurrentScrollDataIndex] = useState(0);
 
   const mobileSliderSettings = {
@@ -33,7 +19,6 @@ const OurJourney: React.FC = () => {
     pauseonhover: true,
   };
 
-  // const updatedData = ['', ...journeyData]
 
   useEffect(() => {
     const observer = new IntersectionObserver((entries) => {
@@ -44,11 +29,9 @@ const OurJourney: React.FC = () => {
         }
       })
     }, {
-      threshold: 0.5, // Trigger when element is 50% visible
-      rootMargin: '-100px 0px' // Adjust based on your needs
+      threshold: 0.5,
+      rootMargin: '-100px 0px',
     })
-
-    // Observe all journey items
     document.querySelectorAll('.journey-item').forEach((element) => {
       observer.observe(element)
     })
