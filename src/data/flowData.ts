@@ -36,20 +36,20 @@ export const catalogData: CatalogDataType[] = [
     image: catalogImage3,
     title: 'Ad Jingles',
     content: '',
-    links: '',
+    links: 'https://www.youtube.com/watch?v=ZvmM6o7Jork',
   },
   {
     id: 1,
     image: catalogImage2,
     title: 'Podcasts',
     content: '',
-    links: '',
+    links: 'https://www.youtube.com/watch?v=de1JCFfaS4g&t=1s',
   },
   {
     id: 0,
     image: catalogImage1,
     title: 'Films',
     content: '',
-    links: '',
+    links: 'https://www.youtube.com/watch?v=JELvqlHSGzQ',
   },
 ];

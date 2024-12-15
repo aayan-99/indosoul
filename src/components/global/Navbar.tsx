@@ -11,7 +11,7 @@ const Navbar = () => {
     const [lastScrollY, setLastScrollY] = useState(0);
 
     const handleEmailClick = () => {
-        window.location.href = pathname === '/indo-soul-music' 
+        window.location.href = pathname === '/indo-soul-music'
             ? 'mailto:contact@indosoulacademy.com'
             : 'mailto:contact@indosoul.in';
     };
@@ -23,6 +23,8 @@ const Navbar = () => {
     const [dropdownOpen, setDropdownOpen] = useState(false);
 
     const navButtonProps = getNavButtonProps(pathname);
+
+    const desktopNavData = navigationData?.slice(0, -1)
 
     const timeoutId: React.MutableRefObject<null | number> = useRef(null);
 
@@ -78,16 +80,16 @@ const Navbar = () => {
                 }`}>
                 <div className='w-full bg-navBlack flex justify-between items-center pl-10 rounded-full p-2'>
                     <div className='flex items-center gap-14 w-fit'>
-                        { pathname !== '/' ? <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={() => navigate(`/`)}>Home</h1> : null }
+                        <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={() => navigate(`/`)}>Home</h1>
                         <h1 className='font-manrope text-sm font-semibold cursor-pointer flex items-center gap-2 relative' onClick={() => setDropdownOpen(!dropdownOpen)}>Offerings
                             <span className='mt-1'>
                                 <svg width="8" height="6" className={`transition-all duration-500 ease-in-out ${!dropdownOpen ? '' : 'rotate-180'}`} viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M4 6L0.535898 -1.75695e-07L7.4641 4.29987e-07L4 6Z" fill={findFillColor(pathname)} />
                                 </svg>
                             </span>
-                            <div className={`absolute bottom-0 top-10 w-56 bg-navBlack rounded-xl flex flex-col overflow-hidden transition-all duration-500 ease-in-out z-20 ${dropdownOpen ? 'h-72' : 'h-0 py-0'}`}>
+                            <div className={`absolute bottom-0 top-10 w-56 bg-navBlack rounded-xl flex flex-col overflow-hidden transition-all duration-500 ease-in-out z-20 ${dropdownOpen ? 'h-60' : 'h-0 py-0'}`}>
                                 {
-                                    navigationData?.map((data) => (
+                                    desktopNavData?.map((data) => (
                                         <div key={data?.id} className={`w-full border-b-white p-4 hover:bg-[#1c1c1b] transition-all duration-500 ease-in-out`} style={{ color: pathname === data?.route ? findFillColor(pathname) : 'whitesmoke' }} onClick={() => navigate(data?.route)}>
                                             <h1 className='font-manrope text-xs'>{data?.title}</h1>
                                         </div>
@@ -106,9 +108,9 @@ const Navbar = () => {
                                 />
                             </svg>
                             {
-                                pathname === '/indo-soul-music' ? 
-                                <a href="tel:8850411961" className='font-manrope text-sm font-semibold cursor-pointer transition-all duration-500 ease-in-out'>+91 88504 11961</a>
-                                : <a href="tel:8754477925" className='font-manrope text-sm font-semibold cursor-pointer transition-all duration-500 ease-in-out'>+91 87544 77925</a>
+                                pathname === '/indo-soul-music' ?
+                                    <a href="tel:8850411961" className='font-manrope text-sm font-semibold cursor-pointer transition-all duration-500 ease-in-out'>+91 88504 11961</a>
+                                    : <a href="tel:8754477925" className='font-manrope text-sm font-semibold cursor-pointer transition-all duration-500 ease-in-out'>+91 87544 77925</a>
                             }
                         </span>
                         <span className='flex items-center gap-2 leading-none'>
@@ -125,9 +127,9 @@ const Navbar = () => {
                             </svg>
                             {
                                 pathname == '/indo-soul-music' ?
-                                <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={handleEmailClick}>contact@indosoulacademy.com</h1>
-                                :
-                                <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={handleEmailClick}>contact@indosoul.in</h1>
+                                    <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={handleEmailClick}>contact@indosoulacademy.com</h1>
+                                    :
+                                    <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={handleEmailClick}>contact@indosoul.in</h1>
                             }
                         </span>
                         <NavButton {...navButtonProps} />

@@ -7,6 +7,7 @@ export interface PopUpData {
   links?: string;
   cardText?: string;
   buttonColor?: string;
+  youtubeLink?: string;
 }
 
 export interface EventsData {

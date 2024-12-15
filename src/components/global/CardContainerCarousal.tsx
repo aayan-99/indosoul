@@ -42,6 +42,12 @@ const CardContainerCarousal: React.FC<CardContainerCarousalProps> = ({ data }) =
         case '/indo-soul-music':
           navigateToLink(link);
           break;
+        case '/indo-soul-live':
+          navigateToLink(link);
+          break;
+          case '/flow':
+            navigateToLink(link);
+            break;
       
         default:
           break;
@@ -62,7 +68,7 @@ const CardContainerCarousal: React.FC<CardContainerCarousalProps> = ({ data }) =
               imageLogo={setLogoType('image')}
               textLogo={setLogoType('text')}
               infoPopup={pathname === '/indo-soul-live' || pathname === '/soul-sabha'}
-              onButtonClick={() => handleClick(data?.links)}
+              onButtonClick={pathname === '/' ? () => navigateToLink(data?.youtubeLink) : () => handleClick(data?.links)}
             />
           ))
         }

@@ -1,9 +1,4 @@
 export const navigationData = [
-    // {
-    //   id: 0,
-    //   title: 'Home',
-    //   route: '/',
-    // },
     {
       id: 1,
       title: 'Indosoul Live',

@@ -46,8 +46,6 @@ const OfferedExperienceCard: React.FC<OfferedExperienceCardProps> = ({ data, tex
     viewPopUp ? blockScroll() : allowScroll();
   }, [viewPopUp]);
 
-
-
   return (
     <>
       <div key={data?.id} className='flex flex-col gap-4 items-center justify-center cursor-pointer'>

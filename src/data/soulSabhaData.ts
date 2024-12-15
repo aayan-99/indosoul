@@ -203,7 +203,7 @@ export const artistData: ArtistDataType[] = [
     image: artist_1,
     title: 'Spoorthi Rao',
     season: 'season 01',
-    youtubeLink: 'https://youtube.com/@abishen',
+    youtubeLink: 'https://www.youtube.com/watch?v=bdX7KfQu0p8&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=4',
     spotifyLink: 'https://youtube.com/@abishen',
   },
   {
@@ -211,7 +211,7 @@ export const artistData: ArtistDataType[] = [
     image: artist_3,
     title: 'Haricharan Seshadri',
     season: 'season 01',
-    youtubeLink: 'https://youtube.com/@haricharanmusic',
+    youtubeLink: 'https://www.youtube.com/watch?v=Dt2AkS5DoHY&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=5',
     spotifyLink: 'https://youtube.com/@haricharanmusic',
   },
   {
@@ -219,7 +219,7 @@ export const artistData: ArtistDataType[] = [
     image: artist_4,
     title: 'Abinaya Shenbagaraj',
     season: 'season 01',
-    youtubeLink: 'https://youtube.com/@spoorthirao',
+    youtubeLink: 'https://www.youtube.com/watch?v=N0jsmE_iFnU&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=3',
     spotifyLink: 'https://youtube.com/@spoorthirao',
   },
   {
@@ -227,7 +227,7 @@ export const artistData: ArtistDataType[] = [
     image: artist_2,
     title: 'Trichur Brothers',
     season: 'season 01',
-    youtubeLink: '',
+    youtubeLink: 'https://www.youtube.com/watch?v=QehzWUHyQcU&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=1',
     spotifyLink: '',
   },
   {
@@ -235,7 +235,7 @@ export const artistData: ArtistDataType[] = [
     image: artist_5,
     title: 'Rajhesh Vaidhya',
     season: 'season 01',
-    youtubeLink: 'https://youtube.com/@rajheshvaidhyaofficial',
+    youtubeLink: 'https://www.youtube.com/watch?v=cK4L_uCGwuU',
     spotifyLink: 'https://youtube.com/@rajheshvaidhyaofficial',
   },
 ];

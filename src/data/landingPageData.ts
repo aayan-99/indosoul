@@ -53,6 +53,7 @@ export const ourOfferings: PopUpData[] = [
     links: '/indo-soul-live',
     cardText: 'Live Contemporary music for every stage',
     buttonColor: 'liveRed',
+    youtubeLink: 'https://www.youtube.com/watch?v=XwpzrHuwrUQ&list=PLribYRRTKTxcA0eUjjyfQHh4730bZUsDC&index=2',
   },
   {
     id: 1,
@@ -63,6 +64,7 @@ export const ourOfferings: PopUpData[] = [
     links: '/soul-sabha',
     cardText: 'Unique listening experience of carnatic music',
     buttonColor: 'soulGreen',
+    youtubeLink: 'https://www.youtube.com/watch?v=QehzWUHyQcU&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa',
   },
   {
     id: 2,
@@ -73,6 +75,7 @@ export const ourOfferings: PopUpData[] = [
     links: '/indo-soul-roots',
     cardText: 'Original & independent compositions',
     buttonColor: 'rootsBrown',
+    youtubeLink: 'https://www.youtube.com/watch?v=pGB354Jp_wY&list=PLribYRRTKTxc6YpK0TDlZrcEqSkyGg_g5',
   },
   {
     id: 3,
@@ -83,6 +86,7 @@ export const ourOfferings: PopUpData[] = [
     links: '/indo-soul-music',
     cardText: 'Online & offline violin institute',
     buttonColor: 'musicBlue',
+    youtubeLink: 'https://www.youtube.com/watch?v=C8gtE8QkXUo',
   },
 
   {
@@ -94,6 +98,7 @@ export const ourOfferings: PopUpData[] = [
     links: '/flow',
     cardText: 'Music production house tailored to project requirements',
     buttonColor: 'flowGreen',
+    youtubeLink: 'https://www.youtube.com/watch?v=WkIYuNQbobw&list=PLribYRRTKTxf-tXDtfJvbKAtrWjtGyDyD',
   },
 ];
 

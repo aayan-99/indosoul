@@ -33,7 +33,7 @@ const VideoCarousal: React.FC<VideoCarousalProps> = ({ data, header }) => {
       setCurrentSlideIndex(next);
     },
     customPaging: (i: number) => (
-      <div className={`w-2 h-2 hidden md:blockrounded-full mt-6 ${currentSlideIndex === i ? 'bg-gray-600' : 'bg-gray-200'}`} />
+      <div className={`w-2 h-2 hidden md:block rounded-full mt-6 ${currentSlideIndex === i ? 'bg-gray-600' : 'bg-gray-200'}`} />
     )
   };
 
@@ -71,8 +71,8 @@ export default VideoCarousal
 function SampleNextArrow(props: any) {
   const { style, onClick } = props;
   return (
-    <div className={`next-slick-arrow z-50 absolute top-1/2 text-gray-400 right-12 text-4xl cursor-pointer`}
-      style={{ ...style, display: "block", fontSize: '80px' }}
+    <div className={`hidden md:block next-slick-arrow z-50 absolute top-1/2 text-gray-400 right-12 text-4xl cursor-pointer`}
+      style={{ ...style, fontSize: '80px' }}
       onClick={onClick}
     > {`>`} </div>
   );
@@ -81,8 +81,8 @@ function SampleNextArrow(props: any) {
 function SamplePrevArrow(props: any) {
   const { style, onClick } = props;
   return (
-    <div className={`next-slick-arrow z-50 absolute top-1/2 text-gray-400 left-8 text-6xl cursor-pointer`}
-      style={{ ...style, display: "block", fontSize: '80px' }}
+    <div className={`hidden md:block next-slick-arrow z-50 absolute top-[39%] sm:top-1/2 text-gray-400 left-8 text-6xl cursor-pointer`}
+      style={{ ...style, fontSize: '80px' }}
       onClick={onClick}
     > {`<`} </div>
   );
