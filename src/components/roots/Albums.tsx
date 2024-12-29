@@ -48,7 +48,7 @@ const Albums: React.FC = () => {
           <h1 className='text-2xl md:text-3xl tracking-wide font-semibold mb-2'>{bookingCardsData[activeIndex].title}</h1>
           <p className='text-md font-semibold leading-5 ml-1 mb-8 md:mb-4'>{bookingCardsData[activeIndex].desc}</p>
           <div className='pl-1'>
-            <SocialMediaIconsColor gap='16' />
+            <SocialMediaIconsColor gap='16' inputData={bookingCardsData[activeIndex]?.link} />
           </div>
         </div>
       </div>

@@ -28,6 +28,13 @@ const Navbar = () => {
 
     const timeoutId: React.MutableRefObject<null | number> = useRef(null);
 
+    const handleOpenCalender = () => {
+        pathname === '/indo-soul-music' ?
+        window.open("https://docs.google.com/forms/d/e/1FAIpQLSckGmjJe8HL8x2mC-W8KQKE894rWzRRJ8Jn2vLVnUNcv25qFg/viewform?usp=send_form", '_blank')
+        :
+        window.open("https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2Oy2TFgjxR4qp0qcY_WHvf_woG_VGqWEdygUfyDpSAEOXfseze-9WW1KUBLE3MS5hbQsJhnCMg", '_blank')
+    }
+
     useEffect(() => {
         const handleScroll = () => {
             const currentScrollY = window.scrollY;
@@ -132,7 +139,7 @@ const Navbar = () => {
                                     <h1 className='font-manrope text-sm font-semibold cursor-pointer' onClick={handleEmailClick}>contact@indosoul.in</h1>
                             }
                         </span>
-                        <NavButton {...navButtonProps} />
+                        <NavButton {...navButtonProps} onCLick={handleOpenCalender} />
                     </div>
                 </div>
             </div>

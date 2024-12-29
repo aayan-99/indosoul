@@ -204,7 +204,7 @@ export const artistData: ArtistDataType[] = [
     title: 'Spoorthi Rao',
     season: 'season 01',
     youtubeLink: 'https://www.youtube.com/watch?v=bdX7KfQu0p8&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=4',
-    spotifyLink: 'https://youtube.com/@abishen',
+    spotifyLink: 'https://open.spotify.com/track/5CSX21Md8WlpmzrteSFqPO',
   },
   {
     id: 1,
@@ -212,7 +212,7 @@ export const artistData: ArtistDataType[] = [
     title: 'Haricharan Seshadri',
     season: 'season 01',
     youtubeLink: 'https://www.youtube.com/watch?v=Dt2AkS5DoHY&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=5',
-    spotifyLink: 'https://youtube.com/@haricharanmusic',
+    spotifyLink: 'https://open.spotify.com/track/4REdO2XFp4pomPGZF63vGX',
   },
   {
     id: 2,
@@ -220,7 +220,7 @@ export const artistData: ArtistDataType[] = [
     title: 'Abinaya Shenbagaraj',
     season: 'season 01',
     youtubeLink: 'https://www.youtube.com/watch?v=N0jsmE_iFnU&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=3',
-    spotifyLink: 'https://youtube.com/@spoorthirao',
+    spotifyLink: 'https://open.spotify.com/track/4tzbYj16iP6p0ocFMcvvDl',
   },
   {
     id: 3,
@@ -228,7 +228,7 @@ export const artistData: ArtistDataType[] = [
     title: 'Trichur Brothers',
     season: 'season 01',
     youtubeLink: 'https://www.youtube.com/watch?v=QehzWUHyQcU&list=PLribYRRTKTxcUsNldh4iCF2Gy9ekuSdUa&index=1',
-    spotifyLink: '',
+    spotifyLink: 'https://open.spotify.com/track/27jpO7PDlDKsIgfHdaB9Zx',
   },
   {
     id: 4,
@@ -236,6 +236,6 @@ export const artistData: ArtistDataType[] = [
     title: 'Rajhesh Vaidhya',
     season: 'season 01',
     youtubeLink: 'https://www.youtube.com/watch?v=cK4L_uCGwuU',
-    spotifyLink: 'https://youtube.com/@rajheshvaidhyaofficial',
+    spotifyLink: 'https://open.spotify.com/track/76cHuSlONwEP9dlKpvv8NA',
   },
 ];

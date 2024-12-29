@@ -5,9 +5,10 @@ import youtubeWhite from '../../assets/icons/youtube.svg'
 
 interface SocialMediaIconsColor {
   gap?: string
+  inputData?: any;
 }
 
-const SocialMediaIconsColor: React.FC<SocialMediaIconsColor> = ({ gap }) => {
+const SocialMediaIconsColor: React.FC<SocialMediaIconsColor> = ({ gap, inputData }) => {
 
   const socialMedia: {
     id: number;
@@ -38,9 +39,23 @@ const SocialMediaIconsColor: React.FC<SocialMediaIconsColor> = ({ gap }) => {
   return (
     <div className={`w-fit justify-center md:w-fit flex items-center gap-${gap ? gap : '20'}`}>
       {
-        socialMedia?.map((data, i) => (
-          <img src={data?.logo} onClick={() => window.open(data.link, '_blank')} key={data?.id} className={`${i === 0 ? 'w-5' : 'w-6 mt-1'} cursor-pointer`} alt="" />
-        ))
+        inputData ? (
+          <>
+            {
+              inputData?.map((data: { id: number; logo: string; link: string; title: string; }, i: number) => (
+                <img src={data?.logo} onClick={() => window.open(data.link, '_blank')} key={data?.id} className={`${i === 0 ? 'w-5' : 'w-6 mt-1'} cursor-pointer`} alt="" />
+              ))
+            }
+          </>
+        ) : (
+          <>
+            {
+              socialMedia?.map((data, i) => (
+                <img src={data?.logo} onClick={() => window.open(data.link, '_blank')} key={data?.id} className={`${i === 0 ? 'w-5' : 'w-6 mt-1'} cursor-pointer`} alt="" />
+              ))
+            }
+          </>
+        )
       }
     </div>
   )

@@ -11,7 +11,7 @@ import ArtistGallery from '../components/global/ArtistGallery';
 import VideoCarousal from '../components/global/VideoCarousal';
 import PreLoader from '../components/global/PreLoader';
 import BackgroundImageContainer from '../components/global/BackgroundImageContainer';
-import heroImageIndosoulLive from '../assets/indosoul/images/hero_landing.png'
+import heroImageIndosoulLive from '../assets/indosoul/images/hero_landing.jpg'
 
 const LandingPage = () => {
 
@@ -46,7 +46,7 @@ const LandingPage = () => {
     }, [experienceRefs]);
 
     const heroText = (
-        <h1 className="text-[1rem] uppercase tracking-widest">Embracing Indian Heritage through Classical music</h1>
+        <h1 className="text-[1rem] uppercase tracking-widest">Live Contemporary Music for Every Stage</h1>
     )
 
     const videoCarousaData = [

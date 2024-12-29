@@ -8,5 +8,5 @@ export interface BookingCardsData {
   image: string;
   title: string;
   desc: string;
-  link: string;
+  link: string | any[];
 };

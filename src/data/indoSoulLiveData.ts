@@ -18,7 +18,7 @@ import music_6 from '../assets/indosoul/images/gallery/06.jpg'
 import music_7 from '../assets/indosoul/images/gallery/07.webp'
 import music_8 from '../assets/indosoul/images/gallery/08.jpg'
 
-import heroImageIndosoulLive from '../assets/indosoul/images/hero_landing.png'
+import heroImageIndosoulLive from '../assets/indosoul/images/hero_landing.jpg'
 
 import aikiyamLogo from '../assets/indosoul/icons/aikyam.png'
 import ensambleLogo from '../assets/indosoul/icons/ensemble.png'

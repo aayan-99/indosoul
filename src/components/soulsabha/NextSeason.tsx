@@ -5,7 +5,11 @@ import descImg from '../../assets/soulsabha/images/descImage.png'
 import NavButton from '../global/NavButton';
 
 const NextSeason: React.FC = () => {
-    
+
+    const handleEmailClick = () => {
+        window.location.href = 'mailto:contact@indosoul.in';
+    };
+
     return (
         <div className='w-full mb-20 md:mb-36'>
             <SeasonHeader text={`UPCOMING SEASON`} styles='bg-clip-text text-transparent bg-gradient-to-r from-[#96d312] to-[#e92f2f] mb-1 md:mb-5' />
@@ -25,7 +29,17 @@ const NextSeason: React.FC = () => {
                                 <p className='text-xs leading-5 md:text-sm font-semibold font-manrope'>Are you a</p>
                                 <p className='text-[26px] font-medium font-bebasNeue tracking-wide'>{data?.title}</p>
                             </span>
-                            <NavButton btnText='enroll here' styles='bg-[#96d312] text-black scale-110' bgColor='' />
+                            <div className='group relative'>
+                                <NavButton btnText='enroll here' styles='bg-[#96d312] text-black scale-110' bgColor='' />
+                                <div className='cursor-pointer absolute top-[115%] left-1/2 -translate-x-1/2 hidden group-hover:block transition-all duration-200 ease-in-out'>
+                                    <div className='relative rounded-lg' onClick={handleEmailClick}>
+                                        <div className='w-full bg-white py-2 px-4 rounded-lg z-10'>
+                                        contact@indosoul.in
+                                        </div>
+                                        <div className='absolute bg-gray-200 w-full h-full rounded-lg z-[-1] -bottom-2.5 -right-2.5'></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     ))
                 }

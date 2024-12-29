@@ -11,6 +11,12 @@ import songsImage5 from '../assets/indosoulroots/images/galleryimages/05.png'
 import songsImage6 from '../assets/indosoulroots/images/galleryimages/06.png'
 import songsImage7 from '../assets/indosoulroots/images/galleryimages/07.png'
 
+
+import appleMusic from '../assets/icons/appleMusic.svg'
+import spotifyWhite from '../assets/icons/spotify.svg'
+import youtubeWhite from '../assets/icons/youtube.svg'
+
+
 import { BookingCardsData, DescriptionData } from '../types/indoSoulRootsTypes';
 import { GalleryImagesType } from '../types/globalTypes'
 
@@ -43,28 +49,104 @@ export const bookingCardsData: BookingCardsData[] = [
     image: bookingImage1,
     title: 'TWO SIDES OF KARMA',
     desc: 'Indosoul by Karthick Iyer',
-    link: '',
+    link: [
+      {
+        id: 0,
+        logo: appleMusic,
+        link: 'https://music.apple.com/us/album/two-sides-of-karma/1455668691',
+        title: 'Apple Music'
+      },
+      {
+        id: 1,
+        logo: spotifyWhite,
+        link: 'https://open.spotify.com/album/4WawflRDbhDVOY3H6KAWZi',
+        title: 'Spotify'
+      },
+      {
+        id: 2,
+        logo: youtubeWhite,
+        link: 'https://www.youtube.com/playlist?list=OLAK5uy_lMEQhzKtwItdeTD8HiCH5sER787-ZivJM',
+        title: 'Youtube'
+      },
+    ],
   },
   {
     id: 1,
     image: bookingImage3,
     title: 'EQUILIBRIUM',
     desc: 'Indosoul by Karthick Iyer',
-    link: '',
+    link: [
+      {
+        id: 0,
+        logo: appleMusic,
+        link: 'https://music.apple.com/us/album/equilibrium/1708935482',
+        title: 'Apple Music'
+      },
+      {
+        id: 1,
+        logo: spotifyWhite,
+        link: 'https://open.spotify.com/album/6tY4vGcBOCrK6Nu8MauIvO',
+        title: 'Spotify'
+      },
+      {
+        id: 2,
+        logo: youtubeWhite,
+        link: 'https://www.youtube.com/playlist?list=OLAK5uy_lJIn9sLi2PoK02v8rkXIUndQd15Gc5bc0',
+        title: 'Youtube'
+      },
+    ],
   },
   {
     id: 2,
     image: bookingImage4,
     title: 'SOUL SABHA Season 1',
     desc: 'Indosoul by Karthick Iyer',
-    link: '',
+    link: [
+      {
+        id: 0,
+        logo: appleMusic,
+        link: 'https://music.apple.com/us/album/soul-sabha-season-1/1722636807',
+        title: 'Apple Music'
+      },
+      {
+        id: 1,
+        logo: spotifyWhite,
+        link: 'https://open.spotify.com/album/7GMW8oc7PfUdfsQ0TJKshN',
+        title: 'Spotify'
+      },
+      {
+        id: 2,
+        logo: youtubeWhite,
+        link: 'https://www.youtube.com/playlist?list=OLAK5uy_k1g4O_B8WZLmhI9VR6SvW9ES4XNagwJZY',
+        title: 'Youtube'
+      },
+    ],
   },
   {
     id: 3,
     image: bookingImage2,
     title: 'THE PALLAVI SHIFT',
     desc: 'Indosoul by Karthick Iyer ft. Dondieu Divin',
-    link: '',
+    link: [
+      {
+        id: 0,
+        logo: appleMusic,
+        link: 'https://music.apple.com/us/album/the-pallavi-shift/1724770824',
+        title: 'Apple Music'
+      },
+      {
+        id: 1,
+        logo: spotifyWhite,
+        link: 'https://open.spotify.com/album/5SdKQyaInB2TV6EpwZXnlV',
+        title: 'Spotify'
+      },
+      {
+        id: 2,
+        logo: youtubeWhite,
+        link: 'https://www.youtube.com/playlist?list=OLAK5uy_mip7Ae0vvoiB-5Re5N_jwxca-ZMvLi92w',
+        title: 'Youtube'
+      },
+    ],
   },
 ];
 

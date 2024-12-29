@@ -9,11 +9,9 @@ import kaushik from '../assets/aboutus/images/team/kaushik.png'
 import reshwinTeam from '../assets/aboutus/images/team/reshwin.png'
 import jayashree from '../assets/aboutus/images/team/jayashree.png'
 import anjana from '../assets/aboutus/images/team/anjana.png'
-import jacinth from '../assets/aboutus/images/team/jacinth.png'
 import aditya from '../assets/aboutus/images/team/aditya.png'
 import sabari from '../assets/aboutus/images/team/sabari.png'
 import avinash from '../assets/aboutus/images/team/avinash.png'
-import keerthi from '../assets/aboutus/images/team/keerthi.png'
 
 import firstLive from '../assets/aboutus/images/timeline/2013.png'
 import firstLaunch from '../assets/aboutus/images/timeline/2015_new album.png'
@@ -96,33 +94,21 @@ export const teamData: AboutUsDetailsType[] = [
   },
   {
     id: 4,
-    name: 'Jacinth Devakiruba',
-    designation: 'Manager - Social Media',
-    image: jacinth,
-  },
-  {
-    id: 5,
     name: 'Aditya',
     designation: 'Lead - Indosoul Academy',
     image: aditya,
   },
   {
-    id: 6,
+    id: 5,
     name: 'Sabari',
     designation: 'Sound Engineer',
     image: sabari,
   },
   {
-    id: 7,
+    id: 6,
     name: 'Avinash Murugadhas',
     designation: 'Video Content Producer',
     image: avinash,
-  },
-  {
-    id: 8,
-    name: 'Keerthi Sindhuri',
-    designation: 'Manager - Accounts',
-    image: keerthi,
   },
 ];
 
