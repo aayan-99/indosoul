@@ -18,7 +18,7 @@ const SoulSabhaPopUp = ({ viewPopUp, setViewPopUp, data }: { viewPopUp: boolean,
             <div className=''>
               {
                 data?.content?.length > 2 ? (
-                  <div className='w-full grid grid-cols-3 gap-2 rounded-3xl overflow-hidden'>
+                  <div className='w-full grid grid-cols-3 gap-2 rounded-2xl overflow-hidden'>
                     {
                       data?.content?.map((sub_data: string) => (
                         <div key={sub_data} className='w-full transition-all duration-200 ease-in-out'>

@@ -12,11 +12,17 @@ import songsImageSingle5 from '../assets/soulsabha/images/artists/02_card/soulsa
 import songsImageSingle6 from '../assets/soulsabha/images/artists/02_card/soulsabha-02_card-06_1000px.jpg'
 import songsImageSingle7 from '../assets/soulsabha/images/artists/02_card/soulsabha-02_card-07_1000px.jpg'
 
-import visualArtsImageSingle1 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-01_1000px.jpg'
-import visualArtsImageSingle2 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-02_1000px.jpg'
-import visualArtsImageSingle3 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-03_1000px.jpg'
-import visualArtsImageSingle4 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-04_1000px.jpg'
-import visualArtsImageSingle5 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-05_1000px.jpg'
+import liveConcerts1 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-01_1000px.jpg'
+import liveConcerts2 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-02_1000px.jpg'
+import liveConcerts3 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-03_1000px.jpg'
+import liveConcerts4 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-04_1000px.jpg'
+import liveConcerts5 from '../assets/soulsabha/images/artists/03_card/aikiyam-03_card-05_1000px.jpg'
+
+import visualArtsImageSingle1 from '../assets/soulsabha/images/artists/04_card/music&visualarts-04_card-01_1000px.jpg'
+import visualArtsImageSingle2 from '../assets/soulsabha/images/artists/04_card/music&visualarts-04_card-02_1000px.jpg'
+import visualArtsImageSingle3 from '../assets/soulsabha/images/artists/04_card/music&visualarts-04_card-03_1000px.jpg'
+import visualArtsImageSingle4 from '../assets/soulsabha/images/artists/04_card/music&visualarts-04_card-04_1000px.jpg'
+import visualArtsImageSingle5 from '../assets/soulsabha/images/artists/04_card/music&visualarts-04_card-05_1000px.jpg'
 
 import exp_2 from '../assets/soulsabha/images/artists/vertical_images/01.png';
 import exp_3 from '../assets/soulsabha/images/artists/vertical_images/02.png';
@@ -113,14 +119,14 @@ export const soulSabhaExperienceData: SoulSabhaExperienceDataType[] = [
         id: 1,
         image: exp_3,
         title: 'Live Concerts',
-        content: [visualArtsImageSingle1, visualArtsImageSingle2, visualArtsImageSingle3, visualArtsImageSingle4, visualArtsImageSingle5],
+        content: [liveConcerts1, liveConcerts2, liveConcerts3, liveConcerts4, liveConcerts5],
         links: '',
     },
     {
         id: 2,
         image: exp_4,
         title: 'Music & Visual Arts',
-        content: [''],
+        content: [visualArtsImageSingle1, visualArtsImageSingle2, visualArtsImageSingle3, visualArtsImageSingle4, visualArtsImageSingle5],
         links: '',
     },
 ];
